@@ -16,6 +16,7 @@ body {
 
 .rectangle {
     height: 600px;
+    width: 600px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;

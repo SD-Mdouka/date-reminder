@@ -13,9 +13,6 @@ function App() {
   const VideList = () => {
     setList([]);
   };
-  const ViewData = () => {
-    setList(ListPerson);
-  };
   const params = {
     LangeAr,
     LangeFr,
@@ -24,7 +21,6 @@ function App() {
     List,
     setList,
     VideList,
-    ViewData,
   };
 
   return (

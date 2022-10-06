@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="font color-body">
-      <Container className="py-5">
+      <Container className="py-5 m-1">
         <DateCount {...params} />
         <DateList {...params} />
         <DateAction {...params} />

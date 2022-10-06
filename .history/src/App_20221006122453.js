@@ -8,25 +8,21 @@ import DateList from "./Components/DateList";
 function App() {
   const [LangeAr, setLangeAr] = useState(false);
   const [LangeFr, setLangeFr] = useState(true);
-  const [List, setList] = useState(ListPerson);
-  //Action Vide
+  const [personData, setPersonData] = useState(DateList);
   const VideList = () => {
-    setList([]);
-  };
-  const ViewData = () => {
-    setList(ListPerson);
+    setPersonData([]);
   };
   const params = {
     LangeAr,
     LangeFr,
     setLangeAr,
     setLangeFr,
-    List,
-    setList,
+    ListPerson,
     VideList,
-    ViewData,
+    personData,
   };
 
+  //Action Vide
   return (
     <div className="font color-body">
       <Container className="py-5">

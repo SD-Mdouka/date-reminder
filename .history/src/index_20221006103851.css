@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    direction: ltr;
+    direction: rtl;
 }
 
 .color-body {
@@ -12,6 +12,14 @@ body {
 .font {
     font-family: "DynaPuff", cursive;
     font-size: 30px;
+}
+
+.btn-fr {
+    display: inline;
+}
+
+.btn-ar {
+    display: none;
 }
 
 .rectangle {

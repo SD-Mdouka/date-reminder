@@ -24,7 +24,6 @@ function App() {
     List,
     setList,
     VideList,
-    ViewData,
   };
 
   return (
